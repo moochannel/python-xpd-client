@@ -1,0 +1,11 @@
+version: "2"
+services:
+  wallet:
+    image: xpjp/xpd
+    ports:
+      - 28191:28191
+      - 28192:28192
+    volumes:
+      - wallet-data:/home/wallet/.XP
+volumes:
+  wallet-data:
