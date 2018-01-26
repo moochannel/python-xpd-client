@@ -1,8 +1,9 @@
 import base64
-from commands import is_xpd_command
 
 from jsonrpc_requests import Server
 from logzero import logger
+
+from .commands import is_xpd_command
 
 
 class XPdClient(object):
